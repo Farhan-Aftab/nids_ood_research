@@ -35,8 +35,6 @@ nids_ood_research/
 
 
 
-Yaml:
-
 ---
 
 ## **Getting Started**
