@@ -1,8 +1,5 @@
-torch>=1.12
+torch
 numpy
-scikit-learn
-scipy
-tqdm
 pandas
-pyyaml
-python-dateutil
+scikit-learn
+matplotlib
