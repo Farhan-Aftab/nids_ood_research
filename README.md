@@ -13,13 +13,24 @@ nids_ood_research/
 ├── LICENSE
 ├── requirements.txt
 ├── src/
-│   ├── preprocess_cicids2017.py
-│   ├── dataloader.py
-│   ├── baseline_run.py
-│   ├── improved_run.py
-│   └── plot_roc.py
+│   ├── All_in_one_Colab_NSR.ipynb
+│   ├── 1. install_requirements.py
+│   ├── 2. preprocessing.py
+│   ├── 3. downloader.py
+│   └── 4. checking_number_of_classes.py
+│   ├── 5. baseline.py
+│   ├── 6. improved.py
+│   └── 7. visualization.py
+├── src/process_cicids2018/
+│       └── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+│       └── Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX
+│       └── Friday-WorkingHours-Morning.pcap_ISCX
+│       └── Monday-WorkingHours.pcap_ISCX
+│       └── Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX
+│       └── Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX
+│       └── Tuesday-WorkingHours.pcap_ISCX
 └── notebooks/
-    └── nids_comparison_colab.ipynb
+    └── 1.txt
 ```
 
 ## Quick start
@@ -29,7 +40,7 @@ nids_ood_research/
 pip install -r requirements.txt
 ```
 
-2. Download CIC-IDS2017 CSVs and place them in `CIC-IDS2017-CSV/`.
+2. Download CIC-IDS2018 CSVs and place them in `CIC-IDS2018-CSV/`.
 3. Run the Colab notebook or the scripts in `src/` as described in the paper.
 
 ## References
