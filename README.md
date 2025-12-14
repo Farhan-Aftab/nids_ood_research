@@ -46,4 +46,4 @@ pip install -r requirements.txt
 ## References
 
 - Andrea Corsini, Shanchieh Jay Yang, "Are Existing Out-of-Distribution Techniques Suitable for Network Intrusion Detection?", IEEE CNS 2023 (CyberOOD)
-- CIC-IDS2017 Dataset
+- CIC-IDS2018 Dataset
