@@ -13,7 +13,7 @@ nids_ood_research/
 ├── LICENSE
 ├── requirements.txt
 ├── src/
-│   ├── All_in_one_Colab_NSR.ipynb
+│   ├── 0. All_in_one_Colab_NSR.ipynb
 │   ├── 1. install_requirements.py
 │   ├── 2. preprocessing.py
 │   ├── 3. downloader.py
@@ -21,7 +21,7 @@ nids_ood_research/
 │   ├── 5. baseline.py
 │   ├── 6. improved.py
 │   └── 7. visualization.py
-├── src/process_cicids2018/
+├── src/processed_cicids2018/
 │       └── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
 │       └── Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX
 │       └── Friday-WorkingHours-Morning.pcap_ISCX
